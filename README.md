@@ -43,10 +43,19 @@ który wyszuka, które z nich mogą zawierać odcinki transmembranowe, według n
 * odcinek ten powinien być położony co najmniej 20 aminokwasów za początkiem i 20 aminokwasów od końca białka.  
 Skrypt powinien do pliku `zad3.txt` wypisać identyfikatory genów, w których zidentyfikowano możliwe odcinki transbłonowe.
 
-Podpowiedź: aby wyszukać ciąg co najmniej 5 takich samych znaków (tutaj a) w pliku `plik.txt` można zastosować jedno z następujących poleceń:
+Podpowiedzi:
+Aby wyszukać ciąg co najmniej 5 takich samych znaków (tutaj a) w pliku `plik.txt` można zastosować jedno z następujących poleceń:
 ```bash
 grep -E 'a{5,}' plik.txt  
 grep 'a\{5,\}' plik.txt
+```
+Aby wyciąć tekst od znaku 5 do końca linii, można zastosować:
+```bash
+cut -c5- plik.txt
+```
+Aby przyciąć linie z dwóch stron można użyć:
+```bash
+cut -c5- plik.txt | rev | cut -c5- | rev
 ```
 Proszę pomyśleć nad zmianą formatu pliku wejściowego, tak aby zadanie nie było zbyt trudne (np. `fasta_formatter`?). 
 Proszę pamiętać, że ciąg taki mógł ulec podzieleniu między kolejnymi liniami.
@@ -57,11 +66,8 @@ Punktacja: za napisanie w pełni działającego skryptu i uzyskanie pliku wyniko
 1. Proszę zaproponować wyrażenie filtrujące (dla programu SnpEff) dla przypadku rodziny (rodzice i dziecko), 
 gdy szukamy mutacji powodującej chorobę dziedziczącą się autosomalnie i recesywnie.
 Wiemy, że dziecko jest chore i obydwoje rodzice są nosicielami. Proszę przetestować na uzyskanym podczas ćwiczeń pliku `razem.vcf`. 
-Wynik proszę zapisać jako `zad4.vcf` (1.5 pkt).  
-2. Powyższe wyrażenie poradzi sobie tylko z przypadkiem, gdy dokładnie ta sama mutacja znajduje się u obydwóch rodziców. 
-   Tymczasem może się zdarzyć, że dwie różne zmiany w obrębie tego samego genu "spotkają się" u dziecka. Proszę napisać w punktach, jak można by takie warianty znaleźć.
-   
-**Uwaga**: to zadanie polega tylko na pomyśleniu nad problemem i wypisaniu do pliku swoich pomysłów (plik `zad4.txt`) (1.5 pkt).  
+Wynik proszę zapisać jako `zad4.vcf` (2 pkt).  
+2. Co to jest element *Alu*? Jaki jest jego związek z kompleksem **SRP**?
 
 
 
