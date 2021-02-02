@@ -16,11 +16,9 @@ skierowane do niektórych organelli (np. aparatu Golgiego).
 U człowieka jednym z białek wchodzących w skład kompleksu SRP jest białko kodowane przez gen **SRP54**.
 
 1. Jaka jest lokalizacja tego genu (chromosom, początek, koniec, nić)? (0.5 pkt)
-
 2. Jaka będzie długość białka powstającego z translacji transktyptu **MANE Select** 
    (to transkrypt, jaki eksperci z NCBI oraz EMBL-EBI uznali, jako
    reprezentacyjny, mający najwyższe znaczenie biologiczne dla danego genu)? (0.5 pkt)
-   
 3. Jakie domeny białkowe wchodzą w skład białka powstającego z tego transkryptu (według klasyfikacji **SuperFamily**)? (0.5 pkt)
 4. Ile wariantów genetycznych prowadzących do skrócenia białka powstającego z tego transkryptu (***ang PTV, protein truncating variants***) jest znanych (według Ensembl)? (1 pkt)
 5. Jaka jest częstość wariantu **rs753087160** w populacji afrykańskiej (według gnomAD)? (0.5 pkt)  
@@ -32,11 +30,14 @@ Aby nowo powstający polipeptyd został rozpoznany i związany przez SRP, musi m
 **Uwaga**: dane te są dostępne w Ensembl - nie trzeba więc samemu uruchamiać programu (i proszę tego nie robić - przynajmniej podczas tego testu)!
 Sekwencje sygnałowe w Ensembl określane są jako **Cleavage site (Signalp)** 
 Analizę proszę zawęzić do genów kodujących białka i dla których eksperci wybrali transkrypt **MANE Select**. 
-Do listy proszę dodać informację o ID genu, położeniu początku i końca sekwencji sygnałowej. Uzyskaną listę proszę zapisać w pliku **zad2.txt**.
+Do listy proszę dodać informację o ID genu, położeniu początku i końca sekwencji sygnałowej. Uzyskaną listę proszę zapisać w pliku `zad2.txt`.
 (2pkt)
 2. Dla ilu genów program SignalP przewidział obecność sekwencji sygnałowej (dodana adnotacja SignalP-TM albo SignalP-noTM)? (0.5 pkt) 
 3. Czy sekwencja sygnałowa zawsze zaczyna się od pierwszego aminokwasu? (0.5 pkt)
 4. Ile aminokwasów ma najdłuższa zidentyfikowana sekwencja sygnałowa? (1 pkt)
+
+**Uwaga**: Jeśli nie uzyskali Państwo pliku `zad2.txt`, to podpunkty 2-4 można wykonać analizując plik `/dene/test9/zad2-dm.txt`.
+Proszę wtedy w odpowiedziach zaznaczyć, że analizowali Państwo ten plik.
 ***
 
 #### Zad3   
