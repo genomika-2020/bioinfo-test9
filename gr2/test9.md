@@ -1,9 +1,12 @@
 ### bioinfo 2020/2021 gr2 (test9)  
 
 Proszę w katalogu domowym na swoim koncie utworzyć katalog `test9_imię_nazwisko`. 
-Odpowiedzi do zadań proszę wpisywać do pliku `odpowiedzi.txt`.   
+Odpowiedzi do zadań proszę wpisywać do pliku `odpowiedzi.txt`.  
+  
 W pierwszej linii tego pliku proszę wpisać swoje imię i nazwisko.   
-Oprócz wyników proszę w ramach odpowiedzi opisywać krótko, jak Państwo do wyniku doszli (program, polecenie, tok myślenia).   
+
+Oprócz wyników proszę w ramach odpowiedzi opisywać krótko, jak Państwo do wyniku doszli (program, polecenie, tok myślenia).  
+ 
 Wszystkie potrzebne do wykonania zadań pliki znajdują się w katalogu `/dane/test9`.
 ***
 ***
