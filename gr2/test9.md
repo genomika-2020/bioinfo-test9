@@ -70,7 +70,7 @@ cut -c5- plik.txt | rev | cut -c5- | rev
 Proszę pomyśleć nad zmianą formatu pliku wejściowego, tak aby zadanie nie było zbyt trudne (np. `fasta_formatter`?). 
 Proszę pamiętać, że ciąg taki mógł ulec podzieleniu między kolejnymi liniami.
 Proszę zapisać skrypt pod nazwą `zad3.sh`.   
-Punktacja: za napisanie w pełni działającego skryptu i uzyskanie pliku wynikowego: 5pkt.
+Punktacja: za napisanie w pełni działającego skryptu i uzyskanie pliku wynikowego: 5 pkt.
 ***
 
 #### Zad4  
