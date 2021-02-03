@@ -1,8 +1,9 @@
 ### bioinfo 2020/2021 gr2 (test9)  
 
 Proszę w katalogu domowym na swoim koncie utworzyć katalog `test9_imię_nazwisko`. 
-Odpowiedzi do zadań proszę wpisywać do pliku `odpowiedzi.txt`. W pierwszej linii pliku proszę wpisać swoje imię i nazwisko.
-Oprócz wyników proszę w tym pliku opisywać krótko, jak Państwo do wyniku doszli (program, polecenie, tok myślenia).
+Odpowiedzi do zadań proszę wpisywać do pliku `odpowiedzi.txt`.   
+W pierwszej linii tego pliku proszę wpisać swoje imię i nazwisko.   
+Oprócz wyników proszę w ramach odpowiedzi opisywać krótko, jak Państwo do wyniku doszli (program, polecenie, tok myślenia).   
 Wszystkie potrzebne do wykonania zadań pliki znajdują się w katalogu `/dane/test9`.
 ***
 ***
@@ -87,7 +88,7 @@ Proszę go nie kopiować na swoje konto, tylko podać pełną ścieżkę dostęp
    ```
    
 Oznaczenia genotypów: `M` - matka, `F` - ojciec, `D` - córka.  
-Wynik proszę zapisać jako `zad4.vcf` (2 pkt).
+Wynik proszę zapisać jako `zad4.vcf` (2 pkt).  
 2. Ile wariantów pozostało w wynikowym pliku? (0.5 pkt)
 ***
 
