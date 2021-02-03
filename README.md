@@ -5,6 +5,6 @@
 
 ### testy
 * [gr1-środa]()
-* [gr2-czwartek](https://github.com/genomika-2020/bioinfo-test9/blob/master/cwiczenia1/test9.md)
+* [gr2-czwartek](https://github.com/genomika-2020/bioinfo-test9/blob/main/gr2/test9.md)
 
 
