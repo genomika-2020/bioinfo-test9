@@ -57,8 +57,7 @@ Skrypt powinien do pliku `zad3.txt` wypisać identyfikatory genów, dla których
 Podpowiedzi:
 Aby wyszukać ciąg co najmniej 5 takich samych znaków (tutaj a) w pliku `plik.txt` można zastosować jedno z następujących poleceń:
 ```bash
-grep -E 'a{5,}' plik.txt  
-grep 'a\{5,\}' plik.txt
+grep -E 'a{5,}' plik.txt
 ```
 Aby wyciąć tekst od znaku 5 do końca linii, można zastosować:
 ```bash
@@ -87,8 +86,10 @@ Proszę go nie kopiować na swoje konto, tylko podać pełną ścieżkę dostęp
    zcat plik.vcf.gz | SnpSift filter 'wyrażenie filtrujące' > plik-wynikowy
    ```
    
-Oznaczenia genotypów: `M` - matka, `F` - ojciec, `D` - córka.  
-Wynik proszę zapisać jako `zad4.vcf` (2 pkt).  
+   Oznaczenia genotypów: `M` - matka, `F` - ojciec, `D` - córka.  
+   Wynik proszę zapisać jako `zad4.vcf` (2 pkt).  
+     
+
 2. Ile wariantów pozostało w wynikowym pliku? (0.5 pkt)
 ***
 
