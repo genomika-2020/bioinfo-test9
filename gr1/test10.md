@@ -18,7 +18,7 @@ W pliku `/dane/test10/zad1.fa` znajduje się pewna sekwencja.
 ***
    
 #### Zad2
-Proszę znaleźć następujące informacje o ludzkim genie ***ACE2*** :
+Proszę znaleźć następujące informacje o ludzkim genie ***ACE2***:
 1. Położenie (chromosom, początek, koniec, nić) (0.5 pkt)  
 2. Ilość transkryptów kodujących białko (0.5 pkt) 
 3. Funkcję molekularną, jaka pełni kodowane przez ten gen białko (0.5 pkt) 
@@ -27,27 +27,28 @@ Proszę znaleźć następujące informacje o ludzkim genie ***ACE2*** :
  
 ***
    
-Wiele grup badawczych poszukuje związku pomiędzy zmiennością genetyczną człowieka (wariantami genetycznymi) a podatnością na zakażenie 
+Wiele ośrodków badawczych poszukuje związku pomiędzy zmiennością genetyczną człowieka (wariantami genetycznymi) a podatnością na zakażenie 
 wirusem SARS-CoV-2 lub też wpływem wariantów genetycznych na przebieg choroby COVID-19. 
-Dane z wielu ośrodków są zbierane i analizowane w ramach organizacji [*The COVID-19 Host Genetics Initiative*](https://www.covid19hg.org/).
+Dane różnych ośrodków są zbierane i analizowane w ramach organizacji [*The COVID-19 Host Genetics Initiative*](https://www.covid19hg.org/).
 Kolejne trzy zadania będą dotyczyły wyników z najnowszej rundy analiz. Sprawdzą Państwo,
-czy znaleziono związek wariantów genetycznych położonych w obrębie sekwencji kodujących białek 
-głównego układu zgodności tkankowej (ang. ***M**ajor* ***H**istocompatibility* ***C**omplex*) z ostrym przebiegiem choroby (niewydolnością oddechową).
+czy znaleziono związek wariantów genetycznych, położonych w obrębie sekwencji kodujących białek 
+głównego układu zgodności tkankowej (ang. ***M**ajor* ***H**istocompatibility* ***C**omplex*), z ostrym przebiegiem choroby (niewydolnością oddechową).
 
 #### Zad3.
 U człowieka region głównego układu zgodności tkankowej jest położony na chromosomie 6 (region *HLA*) i obejmuje około 4 mln pz. 
 W jego obrębie leży około 140 genów kodujących białka. 
 Wiele z nich pełni ważne funkcje w odpowiedzi immunologicznej 
 (według [*The HLA genomic loci map: expression, interaction, diversity and disease*](https://www.nature.com/articles/jhg20085/)).  
-W pliku `/dane/test10/zad3.txt` znajdą Państwo nazwy kilkunastu genów z tego regionu, związanych z prezentacją antygenów (geny *HLA*) oraz regulacją odpowiedzi immunologicznej (*MICA*). 
+W pliku `/dane/test10/zad3.txt` znajdą Państwo nazwy kilkunastu genów z tego regionu, 
+związanych z prezentacją antygenów (geny *HLA*) oraz regulacją odpowiedzi immunologicznej (*MICA*). 
 
  1. Proszę uzyskać listę z położeniem wszystkich odcinków kodujących białko (*Genomic coding*) dla tych genów. Podpowiedź: **Structures**.
 Proszę, aby lista zawierała nazwę genu, chromosom, położenie początku i końca tych odcinków. Listę proszę zapisać pod nazwą `zad3.tsv`. (2 pkt)
- 2. Proszę z listy usunąć linię nagłówka, linie z brakującymi danymi oraz linie, 
+ 2. Proszę z otrzymanej w poprzednim podpunkcie listy usunąć linię nagłówka, linie z brakującymi danymi oraz linie, 
    w których położenie sekwencji kodujących podane jest dla alternatywnych kontigów  
    (CHR_HSCHR6_MHC_APD_CTG1, CHR_HSCHR6_MHC_COX_CTG1, CHR_HSCHR6_MHC_DBB_CTG1, CHR_HSCHR6_MHC_MANN_CTG1, 
    CHR_HSCHR6_MHC_MCF_CTG1, CHR_HSCHR6_MHC_QBL_CTG1, CHR_HSCHR6_MHC_SSTO_CTG1). 
-    **Uwaga**: Ostatni krok można także zrobić odpowiednio modyfikując filtry w podpunkcie 1. (1 pkt).
+    **Uwaga**: Ostatni krok można także wykonać odpowiednio modyfikując filtry w podpunkcie 1 (1 pkt).
    Odfiltrowany plik proszę zapisać pod nazwą `zad3-filtered.tsv`.
 ***  
    
@@ -55,7 +56,7 @@ Proszę, aby lista zawierała nazwę genu, chromosom, położenie początku i ko
 #### Zad4
 W pliku `/dane/test10/COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz` 
 znajdują się wyniki ostatnich analiz *The COVID-19 Host Genetics Initiative*.   
-**Uwaga**: Plik jest duży i skompresowany - proszę go nie kopiować na swoje konto i nie rozpakowywać!!!
+**Uwaga**: Plik jest duży i skompresowany, proszę go nie kopiować na swoje konto i nie rozpakowywać!!!
 W pliku dla każdego analizowanego wariantu pokazany jest wynik testu statystycznego
 (współczynnik beta oraz wartość p-value), mówiący o tym, czy dany wariant jest związany z ostrym przebiegiem infekcji.
 Dane są ułożone w następujący sposób:   
