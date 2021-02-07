@@ -44,9 +44,10 @@ W pliku `/dane/test10/zad3.txt` znajdą Państwo nazwy kilkunastu genów z tego 
  1. Proszę uzyskać listę z położeniem wszystkich odcinków kodujących białko (*Genomic coding*) dla tych genów. Podpowiedź: **Structures**.
 Proszę, aby lista zawierała nazwę genu, chromosom, położenie początku i końca tych odcinków. Listę proszę zapisać pod nazwą `zad3.tab`. (2 pkt)
  2. Proszę z listy usunąć linię nagłówka, linie z brakującymi danymi oraz linie, 
-   w których położenie sekwencji kodujących podane jest dla alternatywnych kontigów 
+   w których położenie sekwencji kodujących podane jest dla alternatywnych kontigów  
    (CHR_HSCHR6_MHC_APD_CTG1, CHR_HSCHR6_MHC_COX_CTG1, CHR_HSCHR6_MHC_DBB_CTG1, CHR_HSCHR6_MHC_MANN_CTG1, 
-   CHR_HSCHR6_MHC_MCF_CTG1, CHR_HSCHR6_MHC_QBL_CTG1, CHR_HSCHR6_MHC_SSTO_CTG1) (1.5 pkt).
+   CHR_HSCHR6_MHC_MCF_CTG1, CHR_HSCHR6_MHC_QBL_CTG1, CHR_HSCHR6_MHC_SSTO_CTG1). 
+    **Uwaga**: Ostatni krok można także zrobić odpowiednio modyfikując filtry w podpunkcie 1.  (1.5 pkt).
    Odfiltrowany plik proszę zapisać pod nazwą `zad3-filtered.tab`.
 ***  
    
@@ -71,7 +72,7 @@ Pierwsza linia zawiera nagłówek i zaczyna się od znaku `#`.
 Państwa zadaniem będzie napisanie skryptu `zad4.sh`, który z pliku `/dane/test10/COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz` wytnie 
 i (zapisze do nowego pliku `zad4.txt`) informacje o wariantach (całe linie)
 leżących w obrębie sekwencji kodujących genów z zadania3 (Potrzebny będzie plik `zad3-filtered.tab` z poprzedniego zadania. 
-Jeśli go Państwo nie uzyskali - proszę pracować z plikiem `/dane/test10/filtered.txt` i zaznaczyć to w odpowiedziach).     
+Jeśli go Państwo nie uzyskali, proszę pracować z plikiem `/dane/test10/filtered.txt` i zaznaczyć to w odpowiedziach).     
 Zadanie należy wykonać z wykorzystaniem programu `tabix`, pomocny może być także program `zcat`. 
 Obydwa programy umożliwiają pracę na skompresowanych danych.
 Program `tabix` wymaga dodatkowo, aby skompresowany plik był zindeksowany (w tym samym katalogu musi być obecny plik `COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz.tbi`).   
