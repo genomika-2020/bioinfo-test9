@@ -42,13 +42,13 @@ Wiele z nich pełni ważne funkcje w odpowiedzi immunologicznej
 W pliku `/dane/test10/zad3.txt` znajdą Państwo nazwy kilkunastu genów z tego regionu, związanych z prezentacją antygenów (geny *HLA*) oraz regulacją odpowiedzi immunologicznej (*MICA*). 
 
  1. Proszę uzyskać listę z położeniem wszystkich odcinków kodujących białko (*Genomic coding*) dla tych genów. Podpowiedź: **Structures**.
-Proszę, aby lista zawierała nazwę genu, chromosom, położenie początku i końca tych odcinków. Listę proszę zapisać pod nazwą `zad3.tab`. (2 pkt)
+Proszę, aby lista zawierała nazwę genu, chromosom, położenie początku i końca tych odcinków. Listę proszę zapisać pod nazwą `zad3.tsv`. (2 pkt)
  2. Proszę z listy usunąć linię nagłówka, linie z brakującymi danymi oraz linie, 
    w których położenie sekwencji kodujących podane jest dla alternatywnych kontigów  
    (CHR_HSCHR6_MHC_APD_CTG1, CHR_HSCHR6_MHC_COX_CTG1, CHR_HSCHR6_MHC_DBB_CTG1, CHR_HSCHR6_MHC_MANN_CTG1, 
    CHR_HSCHR6_MHC_MCF_CTG1, CHR_HSCHR6_MHC_QBL_CTG1, CHR_HSCHR6_MHC_SSTO_CTG1). 
-    **Uwaga**: Ostatni krok można także zrobić odpowiednio modyfikując filtry w podpunkcie 1.  (1.5 pkt).
-   Odfiltrowany plik proszę zapisać pod nazwą `zad3-filtered.tab`.
+    **Uwaga**: Ostatni krok można także zrobić odpowiednio modyfikując filtry w podpunkcie 1. (1 pkt).
+   Odfiltrowany plik proszę zapisać pod nazwą `zad3-filtered.tsv`.
 ***  
    
 
@@ -71,8 +71,8 @@ Pierwsza linia zawiera nagłówek i zaczyna się od znaku `#`.
 
 Państwa zadaniem będzie napisanie skryptu `zad4.sh`, który z pliku `/dane/test10/COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz` wytnie 
 i (zapisze do nowego pliku `zad4.txt`) informacje o wariantach (całe linie)
-leżących w obrębie sekwencji kodujących genów z zadania3 (Potrzebny będzie plik `zad3-filtered.tab` z poprzedniego zadania. 
-Jeśli go Państwo nie uzyskali, proszę pracować z plikiem `/dane/test10/filtered.txt` i zaznaczyć to w odpowiedziach).     
+leżących w obrębie sekwencji kodujących genów z zadania3 (Potrzebny będzie plik `zad3-filtered.tsv` z poprzedniego zadania. 
+Jeśli go Państwo nie uzyskali, proszę pracować z plikiem `/dane/test10/filtered.tsv` i zaznaczyć to w odpowiedziach).     
 Zadanie należy wykonać z wykorzystaniem programu `tabix`, pomocny może być także program `zcat`. 
 Obydwa programy umożliwiają pracę na skompresowanych danych.
 Program `tabix` wymaga dodatkowo, aby skompresowany plik był zindeksowany (w tym samym katalogu musi być obecny plik `COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz.tbi`).   
@@ -94,20 +94,23 @@ Punktacja: za działający skrypt i uzyskanie poprawnego pliku `zad4.txt`: 5 pkt
    
 
 #### Zad5
-Który spośród wariantów leżących wewnątrz sekwencji kodujących analizowanych
+1. Który spośród wariantów leżących wewnątrz sekwencji kodujących analizowanych
 genów ma najniższą wartość *p* (kolumna 9). 
 Czy wartość ta jest niższa niż przyjmowany w tego typu badaniach próg istotności *p=5e-08*? 
 Proszę podać identyfikator tego wariantu (rsID, kolumna13). (1.5 pkt)
 **Uwaga**: Wartości błędu pierwszego rodzaju *p* są podane w notacji naukowej (np. 8.678e-11). 
 Aby posortować prawidłowo liczby w tej notacji zamiast zwykłego (poznanego przez Państwa) polecenia `sort/sort -n` należy użyć
 `LC_ALL=C sort -g`. Można dodawać pozostałe, poznane przez Państwa opcje programu sort (np. `-k, -r`).   
-Jeśli nie uzyskali Państwo pliku `zad4.txt` proszę tylko napisać odpowiednią komendę.  
+Jeśli nie uzyskali Państwo pliku `zad4.txt` proszę tylko napisać odpowiednią komendę.
+2. Jaka jest wielkość pliku `/dane/test10/COVID19_HGI_B2_ALL_leave_UKBB_23andme_20210107.txt.gz` (0.5 pkt)
+    
+
    
 ***
 ***
-KONIEC. Proszę upewnić się, że w katalogu `test10_imię_nazwisko` znajdują się nastepujące pliki: 
+KONIEC. Proszę upewnić się, że w katalogu `test10_imię_nazwisko` znajdują się następujące pliki: 
 * odpowiedzi.txt
-* zad3.tab
-* zad3-filtered.tab
+* zad3.tsv
+* zad3-filtered.tsv
 * zad4.sh
 * zad4.txt
